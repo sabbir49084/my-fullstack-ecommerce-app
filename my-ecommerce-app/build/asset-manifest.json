@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/static/css/main.06220d51.css",
+    "main.js": "/static/js/main.e6fb79ab.js",
+    "static/media/broiler1.jpg": "/static/media/broiler1.f6f0aab43251f19fd5df.jpg",
+    "static/media/broiler4.jpg": "/static/media/broiler4.1a12309bfadebe0f6136.jpg",
+    "static/media/broiler3.jpg": "/static/media/broiler3.4977b6af5c3b04328322.jpg",
+    "static/media/broiler5.jpg": "/static/media/broiler5.5238e55bdb169ccc3ec9.jpg",
+    "static/media/broiler2.jpg": "/static/media/broiler2.ff90f54e35385d0656f3.jpg",
+    "index.html": "/index.html",
+    "main.06220d51.css.map": "/static/css/main.06220d51.css.map",
+    "main.e6fb79ab.js.map": "/static/js/main.e6fb79ab.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.06220d51.css",
+    "static/js/main.e6fb79ab.js"
+  ]
+}
