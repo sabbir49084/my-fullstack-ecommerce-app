@@ -1,5 +1,5 @@
 const asyncHandler = require('express-async-handler');
-const Order = require('../models/Order');
+const Order = require('../models/order');
 
 // @desc    Create new order (for both COD & Online)
 // @route   POST /api/orders
