@@ -1,0 +1,64 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* index.css */
+body {
+  background-color: #f9fafb;
+  font-family: sans-serif;
+}
+.service-card {
+  transition: transform 0.3s ease, box-shadow 0.3s ease, background-color 0.3s ease, color 0.3s ease;
+  border-left: 4px solid var(--forest-green);
+  background-color: #ffffff;
+  color: inherit;
+}
+
+.service-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 20px rgba(0,0,0,0.1);
+  background-color: var(--forest-green); /* সবুজ background */
+  color: #ffffff; /* text white */
+}
+
+/* ভিতরের heading আর paragraph এর জন্য */
+.service-card:hover h3,
+.service-card:hover p,
+.service-card:hover i {
+  color: #ffffff !important;
+}
+/* Keep normal text colors intact */
+.poultry-card p,
+.poultry-card ul {
+  overflow: hidden;             /* hide overflowing text for typing */
+  white-space: nowrap;          /* keep text in one line for typing effect */
+  width: auto;                  /* default full width */
+  border-right: 2px solid transparent; /* cursor effect */
+}
+
+/* Create typing effect on hover */
+.poultry-card:hover p,
+.poultry-card:hover ul {
+  color: white;                 /* text color changes on hover */
+  width: 100%;                  /* reveal full text */
+  animation: typing 1.5s steps(40, end) forwards;
+}
+
+/* Optional cursor blinking effect */
+.poultry-card:hover p::after,
+.poultry-card:hover ul::after {
+  content: '|';
+  animation: blink 0.7s infinite;
+}
+
+/* Keyframes for typing animation */
+@keyframes typing {
+  from { width: 0; }
+  to { width: 100%; }
+}
+
+/* Blinking cursor */
+@keyframes blink {
+  0%, 50%, 100% { opacity: 1; }
+  25%, 75% { opacity: 0; }
+}

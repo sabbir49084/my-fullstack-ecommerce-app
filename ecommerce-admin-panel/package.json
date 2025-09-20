@@ -1,0 +1,77 @@
+{
+  "name": "ecommerce-admin-panel",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@emotion/react": "^11.14.0",
+    "@emotion/styled": "^11.14.1",
+    "@mui/icons-material": "^7.2.0",
+    "@mui/material": "^7.2.0",
+    "@tailwindcss/aspect-ratio": "^0.4.2",
+    "@testing-library/dom": "^10.4.1",
+    "@testing-library/jest-dom": "^6.6.4",
+    "@testing-library/react": "^16.3.0",
+    "@testing-library/user-event": "^13.5.0",
+    "@tinymce/tinymce-react": "^6.3.0",
+    "axios": "^1.11.0",
+    "core-js-pure": "^3.44.0",
+    "framer-motion": "^12.23.12",
+    "lucide-react": "^0.536.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-icons": "^5.5.0",
+    "react-quill": "^2.0.0",
+    "react-router-dom": "^7.7.1",
+    "react-scripts": "5.0.1",
+    "react-toastify": "^11.0.5",
+    "recharts": "^3.1.0",
+    "sweetalert2": "^11.23.0",
+    "tailwind-scrollbar": "^2.1.0",
+    "web-vitals": "^2.1.4",
+    "zustand": "^5.0.7"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "@craco/craco": "^7.1.0",
+    "@pmmmwh/react-refresh-webpack-plugin": "^0.6.1",
+    "@tailwindcss/forms": "^0.5.10",
+    "@tailwindcss/typography": "^0.5.16",
+    "assert": "^2.1.0",
+    "autoprefixer": "^10.4.21",
+    "babel-loader": "^10.0.0",
+    "browserify-zlib": "^0.2.0",
+    "buffer": "^6.0.3",
+    "crypto-browserify": "^3.12.1",
+    "https-browserify": "^1.0.0",
+    "postcss": "^8.5.6",
+    "process": "^0.11.10",
+    "source-map-loader": "^5.0.0",
+    "stream-browserify": "^3.0.0",
+    "stream-http": "^3.2.0",
+    "tailwindcss": "^3.4.17",
+    "url": "^0.11.4",
+    "util": "^0.12.5"
+  }
+}
